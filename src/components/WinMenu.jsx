@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
-import { FiPlay, FiHome, FiTrophy } from 'react-icons/fi';
+import { FiPlay, FiHome, FiAward } from 'react-icons/fi';
 import { GAME_COLORS } from '../utils/constants';
 import { formatNumber } from '../utils/helpers';
 
@@ -52,7 +52,7 @@ const WinMenu = ({
         {/* Trophy Icon */}
         <div className="flex justify-center mb-4">
           <div className="w-20 h-20 rounded-full bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center animate-bounce">
-            <FiTrophy className="w-10 h-10 text-white" />
+            <FiAward className="w-10 h-10 text-white" />
           </div>
         </div>
 

@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
-import { FiX, FiInfo, FiCommand, FiLightbulb } from 'react-icons/fi';
+import { FiX, FiInfo, FiCommand, FiZap } from 'react-icons/fi';
 import { GAME_COLORS, GAME_INFO } from '../utils/constants';
 import { useWindowSize } from '../hooks/useWindowSize';
 
@@ -147,7 +147,7 @@ const HowToPlayModal = ({ gameId, onClose }) => {
         {gameInfo.tips && gameInfo.tips.length > 0 && (
           <div>
             <div className="flex items-center gap-2 mb-3">
-              <FiLightbulb className={`w-5 h-5 ${colors.text}`} />
+              <FiZap className={`w-5 h-5 ${colors.text}`} />
               <h4 className="text-lg font-semibold text-white">Tips</h4>
             </div>
             <ul className="space-y-2">

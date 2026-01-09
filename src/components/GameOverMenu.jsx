@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
-import { FiRefreshCw, FiHome, FiTrophy, FiStar } from 'react-icons/fi';
+import { FiRefreshCw, FiHome, FiAward, FiStar } from 'react-icons/fi';
 import { GAME_COLORS } from '../utils/constants';
 import { formatNumber } from '../utils/helpers';
 
@@ -63,7 +63,7 @@ const GameOverMenu = ({
 
           <div className="glass-panel p-4">
             <div className="flex items-center justify-center gap-2">
-              <FiTrophy className="w-5 h-5 text-amber-400" />
+              <FiAward className="w-5 h-5 text-amber-400" />
               <p className="text-gray-400">
                 High Score: <span className="text-white font-semibold">{formatNumber(highScore)}</span>
               </p>
