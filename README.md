@@ -2,7 +2,6 @@
 
 A polished, production-ready collection of classic arcade games built with React 18, featuring Brickrush (brick breaker), 1024 (sliding puzzle), and Snake. Designed with a stunning dark glassmorphism aesthetic and optimized for both desktop and mobile devices.
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![React](https://img.shields.io/badge/react-18.2.0-blue.svg)
 ![Vite](https://img.shields.io/badge/vite-5.0.8-purple.svg)
 
@@ -255,10 +254,6 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for deta
 5. Commit your changes (`git commit -m 'Add amazing feature'`)
 6. Push to the branch (`git push origin feature/amazing-feature`)
 7. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
