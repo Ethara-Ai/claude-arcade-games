@@ -273,3 +273,9 @@ If you encounter any issues or have questions, please [open an issue](https://gi
 ---
 
 Made with ❤️ and React
+
+---
+
+## Copyright
+
+Copyright (c) 2026 Green Rider Technology LLP (Ethara AI). All rights reserved.
